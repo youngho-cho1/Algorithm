@@ -14,12 +14,7 @@ class Solution {
         // 3. value가 0이 아닌 선수를 찾는다
         for(String player : completion)
             map.put(player, map.get(player)-1);
-        /*for(String key : map.keySet()){
-            if(map.get(key) != 0){
-                answer = key;
-                break;
-            }
-        }*/
+
         Iterator<Map.Entry<String, Integer>> iter = map.entrySet().iterator();
         while(iter.hasNext()){
             Map.Entry<String, Integer> entry = iter.next();
