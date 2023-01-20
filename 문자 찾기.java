@@ -17,3 +17,4 @@ class Main{
     System.out.print(T.solution(str,c));
   }
 }
+
