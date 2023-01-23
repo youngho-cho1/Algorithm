@@ -1,7 +1,7 @@
 import java.util.*;
 class Main {
   public String solution(String str){
-    String answer="";
+    String answer = "";
     int m = Integer.MIN_VALUE, pos;
     while((pos=str.indexOf(' '))!=-1){
       String tmp = str.substring(0,pos);
