@@ -12,7 +12,7 @@ class Main {
       }
       str = str.substring(pos+1);
       }
-      if(str.length() > m) answer = str;
+      if (str.length() > m) answer = str;
       return answer;
   }
   public static void main(String[] args){
