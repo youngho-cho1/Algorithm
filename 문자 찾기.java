@@ -8,6 +8,7 @@ class Main{
       if(str.charAt(i)==t) answer++;
     }
     return answer;
+    
   }
   public static void main(String[] args){
     Main T = new Main();
