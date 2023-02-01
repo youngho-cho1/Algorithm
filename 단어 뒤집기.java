@@ -5,6 +5,7 @@ class Main {
       for(String x : str){
         String tmp = new StringBuilder(x).reverse().toString();
         answer.add(tmp);
+	      
       }
       return answer;
       }
